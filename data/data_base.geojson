@@ -73,7 +73,7 @@
         "an_error_occurred": "حدث خطأ",
         "arsLexLimited": "Ars Lex Limited",
         "bank_wire_transfers": "التحويلات البنكية",
-        "become_ib": "تصبح وسيطًا معرفًا",
+        "become_ib": "كن وسيطاً معرفاً لدى Geratsu",
         "bitcoin": "بيتكوين",
         "bch": "Bitcoin Cash",
         "bonus": "مكافأة",
@@ -216,6 +216,15 @@
             "lucky_ticket_dates": "10.06.2022 - 30.06.2022",
             "lucky_ticket_description": "استمر في التداول خلال المسابقة لتصبح أحد الفائزين.Geratsu قم بإيداع 15 دولارًا واحصل على تذكرة حظ من "
         },
+        "lucky_ticket_2": {
+            "ticket_number": "رقم التذكرة",
+            "search_placeholder": "أدخل تذكرة أو رقم حساب",
+            "lucky_ticket_dates": "10.10.2022 - 28.10.2022",
+            "lucky_ticket_description": "قم بإيداع 15 دولارًا واحصل على تذكرة حظ من Geratsu. استمر في التداول خلال المسابقة لتصبح أحد الفائزين. ",
+            "starts": "تبدأ المسابقة في",
+            "ends": "المسابقة تنتهي في",
+            "start_trading": "بدء التداول"
+          },
         "merdeka": {
             "merdeka_dates": "01.08.2022 - 05.08.2022",
             "merdeka_dates2": "15.08.2022 - 19.08.2022",
@@ -252,9 +261,10 @@
             "referral": "الإحالة",
             "sub_partners": "الشركاء الفرعيين",
             "table_description": "يعتمد مقدار عمولة الإحالة المضافة إلى حسابات الإحالات على نشاط الشريك وعدد إحالاته.",
-            "table_row1_text1": "${amountUsd} لوت وإجمالي إيداع أقل من {volume} حجم أقل من",
+            "table_row1_text1":  "حجم أقل من {volume} لوت وإجمالي إيداع الإحالة أقل من $ {amountUsd}" ,
             "table_row1_text2": "من الترميز أو عمولة الوسيط{percent}",
-            "table_row2_text2_1": "(سعر العمولة الأساسي)",
+            "table_row2_text1": "حجم ما يزيد عن {volume} لوت أو إجمالي وديعة الإحالة لا يقل عن ${amountUsd}",
+            "table_row2_text2_1": "(سعر العمولة الأساسي) (basic commission rate) ",
             "exampletitle": "أمثلة على طريقة حساب عمولة الإحالة",
             "exampletext1": "{newLine} {clients} لقد جذبت",
             "exampletext2": "{classic} على حسابات {newLine}{lots}{newLine} حجم تداولهم هو",
@@ -479,7 +489,7 @@
         "our_promotions": "عروضنا الترويجية",
         "our_team": "فريقنا",
         "our_trading_features": "مزايانا",
-        "Partners_commissions": "Partners Commissions",
+        "Partners_commissions": "عمولات الشركاء",
         "Partners_calculator": "حاسبة الشريك",
         "Partners_faq": "الأسئلة الشائعة حول الشركاء",
         "Partners_regional": "ممثل إقليمي",
@@ -496,13 +506,13 @@
         "trading_accounts": "حسابات التداول",
         "trading_tools": "أدوات التداول",
         "tutorials": "دروس",
-        "ib": "Become IB of Geratsu"
+        "ib": "وسيطاً معرفاً لدى Geratsu"
     },
     "Partners_commissions": {
         "Choose_your_account_type": "اختر نوع حسابك لتحديد عمولة الإحالة",
         "points": "النقاط",
         "table_columns": {
-            "ib_commission": "IB Commission",
+            "ib_commission": "عمولات الوسيط",
             "instrument_type": "نوع الأداة",
             "mib_commission": "لجنة MIB"
         },
@@ -515,7 +525,7 @@
         "appendix_affiliate": "الملحق رقم 1 باتفاقية الشراكة"
     },
     "Partners_faq": {
-        "affiliate_questions": "Affiliate_questions"
+        "affiliate_questions": "أسئلة  الأفيليات"
     },
     "landing_bonuses": {
         "30": {
@@ -649,7 +659,7 @@
         "about_us": "نبذة عنا",
         "affiliate_agreement": "اتفاقية الشراكة",
         "analisys": "التحليلات",
-        "analytics_claws_and_horns": "Analytics From Claws & Horns",
+        "analytics_claws_and_horns": "خدمة التحليلات من  Claws & Horns",
         "analytics_tools": "أدوات التحليلات",
         "bonuses": "المكافآت",
         "client_agreement": "اتفاقية العميل",
@@ -686,7 +696,7 @@
         "for_traders": "للمتداولين",
         "how_it_works": "كيف تبدأ التداول؟",
         "legal_information": "معلومات قانونية",
-        "mt4_trading_platform": "MT4 Trading Platform",
+        "mt4_trading_platform": "MT4 منصة التداول",
         "news": "آخر الأخبار",
         "our_features": "مزايانا",
         "our_team": "فريقنا",
@@ -709,24 +719,24 @@
         "main": {
             "slide_1": {
                 "btn1_text": "اكتشف المزيد",
-                "header1": "EXTRA",
-                "header2": "BONUS UP TO",
+                "header1": "فائض",
+                "header2": "بونوص يصل إلى",
                 "header3": "100٪",
                 "header4": "لجميع الإيداعات"
             },
             "slide_2": {
                 "btn1_text": "كن شريكًا",
-                "header1": "تابع",
-                "header2": "العمولات حتى",
+                "header1": "أفيلييت",
+                "header2": "العمولات تصل حتى",
                 "header3": "20 دولارًا",
-                "header4": "PER LOT"
+                "header4": "للوت الواحد"
             },
             "slide_3": {
                 "btn1_text": "إنشاء حساب",
-                "header1": "LOW",
+                "header1": "منخفض",
                 "header2": "فروق الأسعار من",
                 "header3": "0.0",
-                "header4": "PIPS"
+                "header4": "نقطة"
             },
             "slide_4": {
                 "btn1_text": "وصول مجاني",
@@ -782,7 +792,7 @@
         "islamic_account_supported": "حساب إسلامي ",
         "leverage": "الرافعة المالية",
         "lot_size": "حجم اللوت",
-        "margin_call_level": "Margin Call Level",
+        "margin_call_level": " مستوى طلب تغطية الهامش",
         "margin_hedge_level": "مستوى تغطية الهامش",
         "max_trade_size": "الحد الأقصى لحجم التجارة",
         "cent_accout_type_description": "للمتداولين المبتدئين الذين لديهم القدرة على إبرام صفقات بأحجام صغيرة.",
@@ -804,8 +814,8 @@
             "commission": "اللجان",
             "Contract_size": "حجم العقد",
             "Current_price": "السعر (الحالي)",
-            "swap_long": "Swap long",
-            "swap_short": "Swap short",
+            "swap_long": "مبادلة طويلة.",
+            "swap_short": "مبادلة قصيرة ",
             "symbol": "الرمز"
         },
         "notes": {
@@ -891,7 +901,7 @@
         "block7_title": "لا توجد إدارة تجارية متورطة",
         "block8_read_more": "اكتشف المزيد",
         "block8_text": "مع Geratsu يمكنك فتح حساب لن يتم إضافته للمبادلة.",
-        "block8_title": "Swap-free",
+        "block8_title": "مبادلة-حرة",
         "block9_read_more": "اكتشف المزيد",
         "block9_text": "لقد أعددنا مكافآت 30٪ و 50٪ و 100٪ يمكن أن تساعدك على التداول بربح أكبر.",
         "block9_title": "العروض الترويجية",
@@ -941,11 +951,11 @@
         "volume": "الحجم",
         "lot_size": "حجم العقد",
         "rate": "معدل",
-        "cost_of_point": "Сost of point",
+        "cost_of_point": "تكلفة النقطة",
         "margin": "الهامش",
         "spread": "انتشار",
-        "swap_short": "Swap short",
-        "swap_long": "Swap long",
+        "swap_short": "مبادلة قصيرة ",
+        "swap_long": "مبادلة طويلة.",
         "profit": "ربح"
     },
     "Partners_calculator": {
@@ -985,7 +995,7 @@
             "bonuses": "المكافآت",
             "contest": "مسابقة",
             "tutorials": "دروس",
-            "ib": "Become IB of Geratsu",
+            "ib": "وسيطاً معرفاً لدى Geratsu",
             "bonuses_list": "تداول بمكافأة",
             "news": "آخر الأخبار: Geratsu Forex Broker",
             "social_faq": "الأسئلة الشائعة حول نسخ التداول (الاجتماعي)",
@@ -1008,7 +1018,7 @@
             "accounts": "نقدم لعملائنا ثلاثة أنواع هي حسابات التداول الملائمة لتداول العملات الأجنبية والمتاحة في غرفة العملاء. المنصة: MT4 , عملات قاعدة الحساب ...",
             "instruments": "تقدم لك شركة Geratsu أكثر من 150 أداة تداول متاحة للتداول مع عشرات من مزودي السيولة ... تزود المتداولين لدينا بأفضل شروط التداول.",
             "traders-calculator": "لحساب المعلمات , املأ حقول النموذج المطلوبة: نوع الحساب والعملة ومستوى الرافعة المالية. ثم حدد أداة التداول المطلوبة ...",
-            "platform": "توفر شركة Geratsu لعملائها فرصة تثبيت أشهر منصة تداول وتحليلية - ميتاتريدر 4 مجانًا. قم بتنزيل المحطة هنا.",
+            "platform": "توفر شركة Geratsu لعملائها فرصة تثبيت أشهر منصة تداول وتحليلية - ميتاتريدر 4 مجانًا. قم بتنزيل منصة .",
             "analytics-tools": "يحصل عملاء جيراتسو على مواد تحليلية عالية الجودة من وكالة مستقلة Claws & Horns. التحليل الفني والأساسي للسوق , العملة , ...",
             "traders-faq": "الأسئلة المتداولة حول سوق الفوركس , والتداول , وخزانة العملاء , والبرنامج التابع , و Geratsu LLC , ومحطة التداول MT4 , والأسئلة الفنية ...",
             "partners": "معلومات للشركاء الحاليين أو المحتملين لـ Geratsu. كل شيء عن برامج الشركاء التابعين لنا , Revenue Share , عمولات الشركاء , الأسئلة الشائعة عن الشركاء , منتجات العلامة التجارية.",
@@ -1124,13 +1134,13 @@
             "header1": "أنواع التداول الاجتماعي",
             "text1": "التداول بالنسخ (الاجتماعي) متاح لكل من المتداولين والمستثمرين ويمكن توفيره من خلال 4 طرق.",
             "type1": {
-                "header1": "Type 1: Exact Copying",
-                "text1": "Full Size Copying 1 For 1",
+                "header1": "النوع الأول: النسخ المطابق",
+                "text1": "بالحجم الكامل 1 ل 1",
                 "text2": "إذا استخدم المستثمر هذا النوع من التداول الاجتماعي , فإن حجم التجارة المنسوخة يساوي الحجم في حساب المتداول.",
                 "text3": "مثال: إذا فتح المتداول صفقة لـ 2 عقد , فسيتم نسخ صفقة من 2 عقد إلى حساب المستثمر."
             },
             "type2": {
-                "header1": "Type 2: Fixed Size Copying",
+                "header1": "النوع الثاني : النسخ بالحجم الثابت",
                 "text1": "إذا استخدم المستثمر هذا النوع من التداول الاجتماعي , فإن حجم التجارة المنسوخة يكون دائمًا مطابقًا للحجم المحدد مسبقًا في إعدادات النسخ.",
                 "text2": "مثال: إذا حدد المستثمر \"Copy fixed size\" من 3 عقود وفتح المتداول 6 عقود , فستظل 3 عقود مفتوحة في حساب المستثمر."
             },
